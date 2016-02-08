@@ -14,5 +14,8 @@ var myFunction= function(num) {
 		array.pop(); //pops up the last element
 		str=str+' '+array.reverse().join(' '); //concates the array with its reverse and then joins it separated with spaces
 		document.write(str+"<br>"); //writes it to document
-	}	
+	}
+	else{
+	document.write('<a href="' + document.referrer + '">Go Back</a>')
+	}
 };
